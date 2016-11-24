@@ -1,0 +1,37 @@
+{
+  "name": "kurtz",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melkisedek/kurtz.git"
+  },
+  "keywords": [
+    "short url"
+  ],
+  "author": "Melkisedek Hamakali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melkisedek/kurtz/issues"
+  },
+  "homepage": "https://github.com/melkisedek/kurtz#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "github:chaijs/chai"
+    "mocha": "github:mochajs/mocha"
+  },
+  "engines": {
+    "node": "4.6.1",
+    "npm": "2.15.9"
+  }
+}
