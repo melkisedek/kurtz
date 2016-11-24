@@ -2,7 +2,7 @@
   "name": "kurtz",
   "version": "1.0.0",
   "description": "URL Shortener Microservice",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "example": "examples",
     "test": "test"
