@@ -24,11 +24,8 @@
   },
   "homepage": "https://github.com/melkisedek/kurtz#readme",
   "dependencies": {
-    "express": "^4.14.0"
-  },
-  "devDependencies": {
-    "chai": "github:chaijs/chai",
-    "mocha": "github:mochajs/mocha"
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11"
   },
   "engines": {
     "node": "4.6.1",
