@@ -47,7 +47,7 @@ mongo.connect(db_url, function(err, db) {
           if(doc){
             return res.json({
                 'original_url' : doc.original_url, 
-                'short_url' : doc.short_url
+                'short_url' : (process.env.HOST_URL||"")  + doc.short_url
               });
           }else {
             //automically increment and return the seq value
@@ -69,7 +69,7 @@ mongo.connect(db_url, function(err, db) {
                     // return short_url and original_url
                     return res.json({
                         'original_url' : data.ops[0].original_url, 
-                        'short_url' : data.ops[0].short_url
+                        'short_url' : (process.env.HOST_URL||"") + data.ops[0].short_url
                       });
                   });
               });
