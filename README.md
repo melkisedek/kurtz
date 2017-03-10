@@ -13,3 +13,10 @@ db.counters.insert({
     seq: 1000
 })
 ```
+
+Create .env file. 
+    `mv example.env .env` 
+and fill in the .env file with your app environment configaration info.
+
+Start the server
+    `node server.js`    
